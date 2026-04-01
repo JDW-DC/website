@@ -1,0 +1,141 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #1a1a1a;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.logo {
+    margin-bottom: 18px;
+}
+
+.logo img {
+    height: 85px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 1.1;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #1f3b63;
+}
+
+.subtitle {
+    font-size: 17px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.divider {
+    width: 45px;
+    height: 3px;
+    background: linear-gradient(to right, #d9467a, #7c6fd6, #49a8c6);
+    margin: 18px 0 25px 0;
+}
+
+.section {
+    margin-top: 42px;
+}
+
+.section h3 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1f3b63;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 920px;
+    margin: 0 0 16px 0;
+}
+
+ul {
+    line-height: 1.9;
+    padding-left: 28px;
+    margin: 0;
+}
+
+li {
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.experience {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.footer {
+    margin-top: 70px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+    color: #777;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.footer-title {
+    margin-bottom: 14px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    color: #1f3b63;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links svg {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .subtitle,
+    p,
+    li,
+    .experience,
+    .footer {
+        font-size: 16px;
+    }
+}
